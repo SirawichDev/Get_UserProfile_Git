@@ -1,6 +1,7 @@
 //color
 $bg-header-color: #80CBC4;
 $white-color: #fff;
+$form-color: #e6e6e6 ;
 
 * { 
     margin : 0;
@@ -12,7 +13,7 @@ html{
 }
 
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 .header{
    
@@ -29,18 +30,23 @@ body{
        
     }
 }
-.form{
-    height: 340px;
-    width: 440px;
+.form {
+    width: 340px;
+    height: 440px;
+    background: $form-color;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
-    margin: calc(50vh-220px) auto;
-    background-color: #e6e6e6;
+    margin: calc(50vh - 220px) auto;
+    padding: 20px 30px;
     max-width: calc(100vw - 40px);
     box-sizing: border-box;
+    position: relative;
 
 
-    &__input{
-
+    &__finder{
+        margin: 10px 0;
+        font-size: 2rem;
+        color: $white-color;
     }
-}
+
+  }
