@@ -36,18 +36,20 @@ body {
     font-size: 2rem;
     text-align: center;
     color: #78788c; }
-
-input {
-  width: 100%;
-  margin: 10px 0;
-  padding: 10px;
-  border: 0;
-  resize: none;
-  background: none;
-  box-sizing: border-box;
-  font-size: 2rem;
-  text-align: center;
-  color: #78788c; }
+  .form__input-name {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    resize: none;
+    background: none;
+    box-sizing: border-box;
+    font-size: 2rem;
+    text-align: center;
+    color: #78788c;
+    transition: all 0.3s;
+    border-bottom: 2px solid #bebed2; }
 
 p::before {
   content: attr(type);

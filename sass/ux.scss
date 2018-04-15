@@ -4,7 +4,7 @@ $white-color: #fff;
 $form-color: #e6e6e6;
 $form-header-color : #78788c;
 $name-color : #5a5a5a;
-
+$border-bottom : #bebed2 ;
 * { 
     margin : 0;
     padding: 0;
@@ -52,20 +52,25 @@ body{
         text-align: center;
         color:$form-header-color;
     }
+    &__input-name{
+        width: 100%;
+        margin: 10px 0;
+        padding: 10px;
+        border: 0;
+        outline: none;
+        resize: none;
+        background: none;
+        box-sizing: border-box;
+        font-size: 2rem;
+        text-align: center;
+        color:$form-header-color;
+        transition: all 0.3s;
+        border-bottom: 2px solid $border-bottom;
+
+    }
 
   }
-  input{
-    width: 100%;
-    margin: 10px 0;
-    padding: 10px;
-    border: 0;
-    resize: none;
-    background: none;
-    box-sizing: border-box;
-    font-size: 2rem;
-    text-align: center;
-    color:$form-header-color;
-}
+
 p::before{
     content: attr(type);
     display: block;
