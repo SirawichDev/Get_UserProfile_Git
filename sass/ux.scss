@@ -5,6 +5,7 @@ $form-color: #e6e6e6;
 $form-header-color : #78788c;
 $name-color : #5a5a5a;
 $border-bottom : #bebed2 ;
+$normal-font:2rem;
 * { 
     margin : 0;
     padding: 0;
@@ -90,6 +91,16 @@ p::before{
     margin: 20px 0 0;
     font-size: 20px;
     color: $name-color;
+}
+
+.copyright{
+    box-sizing: border-box;
+    padding: 2rem;
+    border:3px solid $border-bottom;
+    text-align: center;
+    font-size: $normal-font;
+    border-radius: 5px;
+    bottom: 0;
 }
 
 @keyframes finder-move{
