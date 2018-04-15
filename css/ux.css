@@ -32,15 +32,18 @@ body {
   .form__finder {
     margin: 10px 0;
     padding-bottom: 10px;
-    border-bottom: 3px solid #78788c;
+    animation-fill-mode: forwards;
     font-size: 2rem;
     text-align: center;
-    color: #78788c; }
+    color: #78788c;
+    animation-name: finder-move;
+    animation-duration: 3s; }
   .form__input-name {
     width: 100%;
     margin: 10px 0;
     padding: 10px;
     border: 0;
+    font-weight: 200;
     outline: none;
     resize: none;
     background: none;
@@ -50,10 +53,30 @@ body {
     color: #78788c;
     transition: all 0.3s;
     border-bottom: 2px solid #bebed2; }
+  .form__input-name:focus {
+    border-bottom: 2px solid #F4FF81; }
 
 p::before {
   content: attr(type);
   display: block;
+  font-weight: 400;
   margin: 20px 0 0;
   font-size: 20px;
   color: #5a5a5a; }
+
+@keyframes finder-move {
+  0% {
+    opacity: 0;
+    transform: translateY(-10rem); }
+  30% {
+    opacity: 0.3;
+    transform: translateX(4rem); }
+  55% {
+    opacity: 0.5;
+    transform: translateX(-5rem); }
+  65% {
+    opacity: 0.7;
+    transform: translate(0); }
+  100% {
+    opacity: 1;
+    border-bottom: 2px solid #bebed2; } }
