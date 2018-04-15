@@ -6,8 +6,14 @@ class GH{
     }
     
     async getUser(user_name){
-        const UserResponse = await fetch('https://api.github.com/users/${user_name}?mines_id=${this.mines_id}&mines_secret=${this.mines_secret}');
+        const UserResponse = await
+        fetch('https://api.github.com/users/${user_name}?mines_id=${this.mines_id}&mines_secret=${this.mines_secret}');
 
+        const ProfileDetail = await UserResponse.json();
+
+        return {
+            ProfileDetail
+        }
 
     }
 }
