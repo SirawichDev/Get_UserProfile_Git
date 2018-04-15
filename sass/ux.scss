@@ -5,7 +5,7 @@ $white-color: #fff;
 * { 
     margin : 0;
     padding: 0;
-    box-sizing: inherit;
+
 }
 html{
     font-size: 10px;
@@ -30,5 +30,17 @@ body{
     }
 }
 .form{
-    
+    height: 340px;
+    width: 440px;
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh-220px) auto;
+    background-color: #e6e6e6;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+
+
+    &__input{
+
+    }
 }
