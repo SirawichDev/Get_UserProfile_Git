@@ -41,6 +41,7 @@ body {
     margin: 10px 0;
     padding: 10px;
     border: 0;
+    font-weight: 200;
     outline: none;
     resize: none;
     background: none;
@@ -50,10 +51,24 @@ body {
     color: #78788c;
     transition: all 0.3s;
     border-bottom: 2px solid #bebed2; }
+  .form__input-name:focus {
+    border-bottom: 2px solid #F4FF81; }
 
 p::before {
   content: attr(type);
   display: block;
+  font-weight: 400;
   margin: 20px 0 0;
   font-size: 20px;
   color: #5a5a5a; }
+
+@keyframes finder-move {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem); }
+  75% {
+    opacity: 0.3;
+    transform: translateX(4rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }

@@ -57,6 +57,7 @@ body{
         margin: 10px 0;
         padding: 10px;
         border: 0;
+        font-weight: 200;
         outline: none;
         resize: none;
         background: none;
@@ -66,7 +67,11 @@ body{
         color:$form-header-color;
         transition: all 0.3s;
         border-bottom: 2px solid $border-bottom;
+     
 
+    }
+    &__input-name:focus{
+        border-bottom: 2px solid #F4FF81;
     }
 
   }
@@ -74,7 +79,23 @@ body{
 p::before{
     content: attr(type);
     display: block;
+    font-weight: 400;
     margin: 20px 0 0;
     font-size: 20px;
     color: $name-color;
+}
+
+@keyframes finder-move{
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    75%{
+        opacity: 0.3;
+        transform: translateX(4rem);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
 }
