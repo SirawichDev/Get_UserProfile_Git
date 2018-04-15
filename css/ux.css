@@ -1,2 +1,21 @@
 * {
-  margin: auto 0; }
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: 'Oswald', sans-serif; }
+
+.header {
+  margin-top: 4rem;
+  background-color: #80CBC4;
+  color: #fff; }
+  .header__text {
+    font-weight: 100;
+    letter-spacing: 2rem;
+    text-transform: uppercase;
+    font-size: 5rem;
+    text-align: center; }
