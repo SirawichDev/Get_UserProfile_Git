@@ -1,5 +1,5 @@
 
-const github = new Github;
+ github = new GitHub();
 
 // search input
 
