@@ -1,0 +1,22 @@
+{
+  "name": "get_userprofile_git",
+  "version": "1.0.0",
+  "description": "fetch user profile from github",
+  "main": "index.js",
+  "scripts": {
+    "sass-me": "node-sass sass/ux.scss css/ux.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SirawichDev/Get_UserProfile_Git.git"
+  },
+  "author": "Sirawich Voungchuy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SirawichDev/Get_UserProfile_Git/issues"
+  },
+  "homepage": "https://github.com/SirawichDev/Get_UserProfile_Git#readme",
+  "devDependencies": {
+    "node-sass": "^4.8.3"
+  }
+}
