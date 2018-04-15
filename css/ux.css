@@ -1,13 +1,12 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: inherit; }
+  padding: 0; }
 
 html {
   font-size: 10px; }
 
 body {
-  font-family: 'Oswald', sans-serif; }
+  font-family: "Montserrat", sans-serif; }
 
 .header {
   margin-top: 4rem;
@@ -19,3 +18,42 @@ body {
     text-transform: uppercase;
     font-size: 5rem;
     text-align: center; }
+
+.form {
+  width: 340px;
+  background: #e6e6e6;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: calc(25vh - 220px) auto;
+  padding: 30px 40px;
+  max-width: calc(100vw - 40px);
+  box-sizing: border-box;
+  position: relative; }
+  .form__finder {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #78788c;
+    font-size: 2rem;
+    text-align: center;
+    color: #78788c; }
+  .form__input-name {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 0;
+    outline: none;
+    resize: none;
+    background: none;
+    box-sizing: border-box;
+    font-size: 2rem;
+    text-align: center;
+    color: #78788c;
+    transition: all 0.3s;
+    border-bottom: 2px solid #bebed2; }
+
+p::before {
+  content: attr(type);
+  display: block;
+  margin: 20px 0 0;
+  font-size: 20px;
+  color: #5a5a5a; }
