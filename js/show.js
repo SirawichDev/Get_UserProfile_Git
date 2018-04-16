@@ -4,6 +4,7 @@ class show {
     }
     
     showUser(user){
+        //someFix
         this.profile.innerHTML = `
         <section>
         <div class="row">
