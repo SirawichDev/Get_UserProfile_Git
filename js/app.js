@@ -1,5 +1,5 @@
 
- github = new GitHub();
+ github = new GitHub;
 
 // search input
 
@@ -11,11 +11,15 @@ search.addEventListener('keyup', (e)=>{
     const userText = e.target.value;
 
     if(userText !== ''){
-        //make http call
-
         github.getUser(userText)
         .then(data =>{
-            console.log(data);
+            if(data.profile.message === 'No User'){
+
+            }else {
+
+            }
         });
+    } else{
+        
     }
 });
