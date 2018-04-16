@@ -34,16 +34,18 @@ body{
     }
 }
 .form {
-    width: 340px;
+    width: 440px;
     background: $form-color;
     border-radius: 8px;
     box-shadow: 0 0 40px -10px #000;
-    margin: calc(25vh - 220px) auto;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 0%);
     padding: 30px 40px;
     max-width: calc(100vw - 40px);
     box-sizing: border-box;
     position: relative;
-
+    text-align: center;
    
     &__finder{
         margin: 10px 0;
