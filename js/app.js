@@ -1,6 +1,6 @@
 
  github = new GitHub;
-
+ show = new show;
 // search input
 
 const search = document.getElementById('search_profile');
@@ -16,6 +16,7 @@ search.addEventListener('keyup', (e)=>{
             if(data.profile.message === 'No User'){
 
             }else {
+                show.showUser(data.profile);
 
             }
         });
