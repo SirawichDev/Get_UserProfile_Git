@@ -187,4 +187,26 @@ p::before{
         left:0;
         background: #3A3A3A;
     }
+
+    &__cont{
+        position:relative;
+        top:-45px;
+        right:190px;
+        width:150px;
+        height:auto;
+        margin:0 auto;
+      }
+    &__center{
+        width:500px;
+        float:left;
+      text-align:center;
+    }
+    &__text{
+        color: $white-color;
+        font-size: 30px;
+        font-weight: 100;
+        margin-top:70px;
+        margin-left:40px;
+    }
+     
 }
