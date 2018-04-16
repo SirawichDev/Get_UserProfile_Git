@@ -6,6 +6,9 @@ $form-header-color : #78788c;
 $name-color : #5a5a5a;
 $border-bottom : #bebed2 ;
 $normal-font:2rem;
+$grid-width : 114rem;
+$gutter-vertical: 9rem;
+$gutter-horizental: 1rem;
 * { 
     margin : 0;
     padding: 0;
@@ -129,7 +132,36 @@ p::before{
         border-bottom: 2px solid $border-bottom;
     }
 }
+.row{
+    max-width: $grid-width;
+    color: black;
+    margin: 0 auto;
 
+//.row:last-child()
+    &:not(:last-child) {
+        margin-bottom: $gutter-vertical;
+    }
+   
+    [class^="col-"]{
+        float: left;
+
+        &:not(:last-child){
+            margin-right: $gutter-horizental;
+        }
+    }
+    .col-1-of-2{
+        width: calc((100% - #{$gutter-horizental}) / 2 );
+    }
+    .col-1-of-3{
+        width: calc((100% - 2 *  #{$gutter-horizental}) / 3);
+
+    }
+    .col-1-of-4{
+        width: calc((100% - 3 *  #{$gutter-horizental}) / 4);
+
+    }
+   
+} 
 .footer {
 	bottom:0;
 	left:0;
@@ -209,4 +241,12 @@ p::before{
         margin-left:40px;
     }
      
+}
+.btn{
+    outline: none;
+    left: 0;
+    right: 0;
+    display: block;
+    text-align: center;
+    border:3px solid #444;
 }
