@@ -7,14 +7,10 @@ class show {
         //someFix
         this.profile.innerHTML = `
 
-        <section>
-        <div class="container-fluid">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4">
+             <section>
                 <div class="card text-center">
                   <div class="title">
-                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <i class="title__fa"></i>
                     <h2><img src="${user.avatar_url}"></h2>
                   </div>
                   <div class="price">
@@ -22,10 +18,10 @@ class show {
                   </div>
                   <div class="option">
                     <ul>
-                    <li> <i class="fa fa-check" aria-hidden="true"></i> 10 GB Space </li>
-                    <li> <i class="fa fa-check" aria-hidden="true"></i> 3 Domain Names </li>
-                    <li> <i class="fa fa-check" aria-hidden="true"></i> 20 Email Address </li>
-                    <li> <i class="fa fa-times" aria-hidden="true"></i> Live Support </li>
+                    <li> </i>Public Repos: ${user.public_repos} </li>
+                    <li> </i> Follower: ${user.followers} </li>
+                    <li> </i> Following: ${user.following} </li>
+                    <li> </i> location: ${user.location}</li>
                     </ul>
                   </div>
                   <a href="${user.html_url}">View Profile </a>
