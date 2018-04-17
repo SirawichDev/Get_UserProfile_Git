@@ -28,7 +28,7 @@ class show {
                     <li> <i class="fa fa-times" aria-hidden="true"></i> Live Support </li>
                     </ul>
                   </div>
-                  <a href="">View Profile </a>
+                  <a href="${user.html_url}">View Profile </a>
                 </div>
               </div>
 
