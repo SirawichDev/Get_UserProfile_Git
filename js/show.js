@@ -18,10 +18,10 @@ class show {
                   </div>
                   <div class="option">
                     <ul>
-                    <li> <i class="fa " ></i>Public Repos: ${user.public_repos} </li>
-                    <li> <i class="fa " ></i> Follower: ${user.followers} </li>
-                    <li> <i class="fa " ></i> Following: ${user.following} </li>
-                    <li> <i class="fa " ></i> Live Support </li>
+                    <li> </i>Public Repos: ${user.public_repos} </li>
+                    <li> </i> Follower: ${user.followers} </li>
+                    <li> </i> Following: ${user.following} </li>
+                    <li> </i> location: ${user.location}</li>
                     </ul>
                   </div>
                   <a href="${user.html_url}">View Profile </a>
