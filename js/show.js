@@ -7,14 +7,10 @@ class show {
         //someFix
         this.profile.innerHTML = `
 
-        <section>
-        <div class="container-fluid">
-          <div class="container">
-            <div class="row">
-              <div class="col-sm-4">
+             <section>
                 <div class="card text-center">
                   <div class="title">
-                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                    <i class="title__fa"></i>
                     <h2><img src="${user.avatar_url}"></h2>
                   </div>
                   <div class="price">
