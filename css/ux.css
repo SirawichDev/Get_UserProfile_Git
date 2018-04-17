@@ -97,13 +97,13 @@ section {
   height: 100vh;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 140px 0; }
+  padding: 100px 0; }
 
 .card {
   position: relative;
   max-width: 300px;
   height: auto;
-  background: linear-gradient(-45deg, #fe0847, #feae3f);
+  background: linear-gradient(-15deg, #448AFF, #4DB6AC);
   border-radius: 15px;
   margin: 0 auto;
   padding: 40px 20px;
@@ -115,18 +115,6 @@ section {
 .card:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1); }
-
-.col-sm-4:nth-child(1) .card,
-.col-sm-4:nth-child(1) .card .title .fa {
-  background: linear-gradient(-45deg, #f403d1, #64b5f6); }
-
-.col-sm-4:nth-child(2) .card,
-.col-sm-4:nth-child(2) .card .title .fa {
-  background: linear-gradient(-45deg, #ffec61, #f321d7); }
-
-.col-sm-4:nth-child(3) .card,
-.col-sm-4:nth-child(3) .card .title .fa {
-  background: linear-gradient(-45deg, #24ff72, #9a4eff); }
 
 .card::before {
   content: '';
@@ -167,7 +155,7 @@ section {
   margin: 0;
   padding: 20px 0;
   color: #fff;
-  font-size: 60px; }
+  font-size: 4rem; }
 
 .option ul {
   margin: 0;

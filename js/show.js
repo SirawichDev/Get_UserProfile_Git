@@ -18,7 +18,7 @@ class show {
                     <h2><img src="${user.avatar_url}"></h2>
                   </div>
                   <div class="price">
-                    <h4><sup>$</sup>25</h4>
+                    <h4>${user.login}</h4>
                   </div>
                   <div class="option">
                     <ul>
@@ -28,7 +28,7 @@ class show {
                     <li> <i class="fa fa-times" aria-hidden="true"></i> Live Support </li>
                     </ul>
                   </div>
-                  <a href="">View Profile </a>
+                  <a href="${user.html_url}">View Profile </a>
                 </div>
               </div>
 
