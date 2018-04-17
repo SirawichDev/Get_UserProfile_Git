@@ -21,6 +21,8 @@ search.addEventListener('keyup', (e)=>{
             }
         });
     } else{
+
+        show.ClearProfile();
         
     }
 });
