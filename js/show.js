@@ -18,7 +18,7 @@ class show {
                   </div>
                   <div class="option">
                     <ul>
-                    <li> <i class="fa " ></i> 10 GB Space </li>
+                    <li> <i class="fa " ></i> ${user.public_repos} </li>
                     <li> <i class="fa " ></i> 3 Domain Names </li>
                     <li> <i class="fa " ></i> 20 Email Address </li>
                     <li> <i class="fa " ></i> Live Support </li>
