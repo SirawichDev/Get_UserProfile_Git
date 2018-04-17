@@ -15,3 +15,5 @@ Don't forget!!
 client_id 
 secret_id
 
+#### limit req to github
+for me 5000
