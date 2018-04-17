@@ -18,7 +18,7 @@ class show {
                     <h2><img src="${user.avatar_url}"></h2>
                   </div>
                   <div class="price">
-                    <h4><sup>$</sup>25</h4>
+                    <h4>${user.login}</h4>
                   </div>
                   <div class="option">
                     <ul>
