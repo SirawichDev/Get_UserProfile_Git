@@ -22,10 +22,10 @@ class show {
                   </div>
                   <div class="option">
                     <ul>
-                    <li> <i class="fa fa-check" aria-hidden="true"></i> 10 GB Space </li>
-                    <li> <i class="fa fa-check" aria-hidden="true"></i> 3 Domain Names </li>
-                    <li> <i class="fa fa-check" aria-hidden="true"></i> 20 Email Address </li>
-                    <li> <i class="fa fa-times" aria-hidden="true"></i> Live Support </li>
+                    <li> <i class="fa " ></i> 10 GB Space </li>
+                    <li> <i class="fa " ></i> 3 Domain Names </li>
+                    <li> <i class="fa " ></i> 20 Email Address </li>
+                    <li> <i class="fa " ></i> Live Support </li>
                     </ul>
                   </div>
                   <a href="${user.html_url}">View Profile </a>
