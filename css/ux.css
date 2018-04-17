@@ -75,6 +75,12 @@ p::before {
   border-radius: 5px;
   bottom: 0; }
 
+.Error {
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  background-color: red; }
+
 @keyframes finder-move {
   0% {
     opacity: 0;
@@ -144,7 +150,7 @@ section {
   font-size: 28px;
   z-index: 2; }
 
-.price, .option {
+.Name, .option {
   position: relative;
   z-index: 2; }
 

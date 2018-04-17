@@ -13,7 +13,7 @@ class show {
                     <i class="title__fa"></i>
                     <h2><img src="${user.avatar_url}"></h2>
                   </div>
-                  <div class="price">
+                  <div class="Name">
                     <h4>${user.login}</h4>
                   </div>
                   <div class="option">
@@ -29,5 +29,20 @@ class show {
               </div>
 
         `
+    }
+    ClearProfile(){
+      this.profile.innerHTML = '';
+    }
+    ShowMessage(massage,ClassName){
+      const div = document.createElement('div');
+      div.className = ClassName;
+      div.appendChild(document.createTextNode(massage));
+
+      const Error = document.querySelector('.SearchForm');
+
+      const form = document.querySelector('.from');
+
+      Error.insertBefore(div,form);
+
     }
 }
