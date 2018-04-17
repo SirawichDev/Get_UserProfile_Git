@@ -30,4 +30,7 @@ class show {
 
         `
     }
+    ClearProfile(){
+      this.profile.innerHTML = '';
+    }
 }
