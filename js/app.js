@@ -13,7 +13,7 @@ search.addEventListener('keyup', (e)=>{
     if(userText !== ''){
         github.getUser(userText)
         .then(data =>{
-            if(data.profile.message === 'No User'){
+            if(data.profile.message === 'Not Found'){
                 
                 show.ShowMessage('User Not Found','Error');
             }else {

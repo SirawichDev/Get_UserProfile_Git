@@ -114,6 +114,13 @@ p::before{
     bottom: 0;
 }
 
+.Error{
+    width:100%;
+    display: block;
+
+    box-sizing: border-box;
+    background-color: red;
+}
 @keyframes finder-move{
     0% {
         opacity: 0;
@@ -193,7 +200,7 @@ p::before{
     font-size: 28px;
    z-index: 2;
   }
-  .price,.option{
+  .Name,.option{
     position: relative;
     z-index: 2;
   }
